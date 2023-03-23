@@ -4,7 +4,7 @@ import '../style/footer/footer.css'
 const Footer = () => {
     return (
         <footer className='footer' data-aos="zoom-in-up">
-            <h3 >Sebastian Diaz</h3>
+            <h3 >Sebastian Diaz R</h3>
             <div  className='footer_nav'>
                 <a className='hvr-bounce-to-top' href="#home">Home</a>
                 <a className='hvr-bounce-to-top' href="#about_me">About Me</a>
@@ -17,7 +17,7 @@ const Footer = () => {
                 <a className='hvr-radial-in' href="https://github.com/SebasWebCool"><box-icon name='github' type='logo' ></box-icon></a>
                 <a className='hvr-radial-in' href="mailto:sebasweb2000@gmail.com"><box-icon name='gmail' type='logo' ></box-icon></a>
             </div>
-            <span >© Sebastian Diaz. All rights reserved.</span>
+            <span >© Sebastian Diaz R. All rights reserved.</span>
         </footer>
     )
 }

@@ -12,3 +12,10 @@
     border: white 2px solid;
     z-index: 9999;
 }
+@media screen and (max-width: 500px){
+    .aside_ul{
+        left: 15px;
+        padding: 3px;
+        border: none;
+    }
+}

@@ -8,6 +8,7 @@
     left: calc(50vw - 270px/2);
     background-color: var(--thiry-color);
     z-index: 99999;
+    transition: top 0.4s;
 }
 .nav_ul li {
     padding: 3px;

@@ -65,6 +65,9 @@
     .home_img{
         height: 300px;
     }
+    .home{
+        height: auto;
+    }
 }
 @media screen and (max-width:470px) {
     .home_img{

@@ -8,7 +8,7 @@ const Contacts = () => {
             <div className='contact_div'>
                 <div className='contact_div_social'>
 
-                    <div className='contact_div_social_a hvr-shutter-out-horizontal' data-aos="fade-down-right" data-aos-duration="800">
+                    <div className='contact_div_social_a ' data-aos="fade-down-right" data-aos-duration="800">
                         <box-icon name='gmail' type='logo' ></box-icon>
                         <h5>Email</h5>
                         <p>sebasweb2000@gmail.com</p>
@@ -17,7 +17,7 @@ const Contacts = () => {
                     </div>
 
 
-                    <div className='contact_div_social_a hvr-shutter-out-horizontal' data-aos="fade-right" data-aos-duration="800">
+                    <div className='contact_div_social_a ' data-aos="fade-right" data-aos-duration="800">
                         <box-icon type='logo' name='whatsapp'></box-icon>
                         <h5>Whatsapp</h5>
                         <p>+58 412 0169581</p>
@@ -26,7 +26,7 @@ const Contacts = () => {
                     </div>
 
 
-                    <div className='contact_div_social_a hvr-shutter-out-horizontal' data-aos="fade-up-right" data-aos-duration="800">
+                    <div className='contact_div_social_a ' data-aos="fade-up-right" data-aos-duration="800">
                         <box-icon name='linkedin-square' type='logo' ></box-icon>
                         <h5>LinkedIn</h5>
                         <p>linkedin.com/in/sebastián-e-díaz-ramírez</p>
@@ -35,7 +35,7 @@ const Contacts = () => {
                     </div>
                 </div>
 
-                <div className='contact_div_form' data-aos="fade-left" data-aos-duration="800">
+                <div className='contact_div_form' data-aos="fade-up" data-aos-duration="800">
                     <h4>Tell Me About Your Idea</h4>
                     <form action="https://formspree.io/f/moqryoll" method="POST" class="contact_form">
                             <div class="contact_form-div">
