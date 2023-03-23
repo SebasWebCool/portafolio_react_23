@@ -13,7 +13,7 @@ const Contacts = () => {
                         <h5>Email</h5>
                         <p>sebasweb2000@gmail.com</p>
 
-                        <a href='mailto:sebasweb2000@gmail.com'>Write me <box-icon type='solid' color='#1b0d99' name='right-arrow-alt'></box-icon></a>
+                        <a href='mailto:sebasweb2000@gmail.com'>Text me <box-icon type='solid' color='#1b0d99' name='right-arrow-alt'></box-icon></a>
                     </div>
 
 
@@ -22,7 +22,7 @@ const Contacts = () => {
                         <h5>Whatsapp</h5>
                         <p>+58 412 0169581</p>
 
-                        <a href='https://wa.me/584120169581'>Write me <box-icon type='solid' color='#1b0d99' name='right-arrow-alt'></box-icon></a>
+                        <a href='https://wa.me/584120169581'>Text me <box-icon type='solid' color='#1b0d99' name='right-arrow-alt'></box-icon></a>
                     </div>
 
 
@@ -31,7 +31,7 @@ const Contacts = () => {
                         <h5>LinkedIn</h5>
                         <p>linkedin.com/in/sebastián-e-díaz-ramírez</p>
 
-                        <a href='https://www.linkedin.com/in/sebasti%C3%A1n-e-d%C3%ADaz-ram%C3%ADrez-3a4960244/'>Write me <box-icon type='solid' color='#1b0d99' name='right-arrow-alt'></box-icon></a>
+                        <a href='https://www.linkedin.com/in/sebasti%C3%A1n-e-d%C3%ADaz-ram%C3%ADrez-3a4960244/'>Text me <box-icon type='solid' color='#1b0d99' name='right-arrow-alt'></box-icon></a>
                     </div>
                 </div>
 

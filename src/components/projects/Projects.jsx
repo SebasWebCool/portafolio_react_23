@@ -4,9 +4,9 @@ import '../../style/projects/projects.css'
 const Projects = () => {
   return (
     <section className='projects' id='projects'>
-      <h3 data-aos="fade-down">Projects</h3>
-      <div className='pro-cont'>
-                <div className='pro-cont-title' data-aos="zoom-in-down">
+      <h3 data-aos="zoom-in-down">Projects</h3>
+      <div className='pro-cont' >
+                <div className='pro-cont-title' data-aos="fade-down">
                     <h4>Wobble</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
@@ -23,7 +23,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='pro-cont-title' data-aos="zoom-in-down">
+                <div className='pro-cont-title' data-aos="fade-down">
                     <h4>Pokedex</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
@@ -40,7 +40,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='pro-cont-title' data-aos="zoom-in-down">
+                <div className='pro-cont-title' data-aos="fade-down">
                     <h4>Users CRUD</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
@@ -58,7 +58,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='pro-cont-title' data-aos="zoom-in-down">
+                <div className='pro-cont-title' data-aos="fade-down">
                     <h4>Rick and Morty</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
@@ -78,7 +78,7 @@ const Projects = () => {
                 </div>
 
 
-                <div className='pro-cont-title' data-aos="zoom-in-down">
+                <div className='pro-cont-title' data-aos="fade-down">
                     <h4>Quote Box</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
@@ -95,7 +95,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='pro-cont-title' data-aos="zoom-in-down">
+                <div className='pro-cont-title' data-aos="fade-down">
                     <h4>Weather App</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">

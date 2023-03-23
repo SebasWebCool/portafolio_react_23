@@ -19,7 +19,8 @@
 }
 .footer_nav a{
     text-decoration: none;
-    color: white;
+    color: white; 
+    padding: 0 5px;
 }
 .footer span{
     font-size: 12px;
