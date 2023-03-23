@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    background-color: var(--four-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer h3{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.footer_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+.footer_nav a{
+    text-decoration: none;
+    color: white;
+}
+.footer span{
+    font-size: 12px;
+    font-weight: 100;
+}

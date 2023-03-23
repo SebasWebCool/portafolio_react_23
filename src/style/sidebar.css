@@ -1,0 +1,14 @@
+.aside_ul{
+    display: flex;
+    padding: 15px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: fixed;
+    left: 20px;
+    top: 25vh;
+    background-color: rgb(61, 193, 211);
+    border: white 2px solid;
+    z-index: 9999;
+}

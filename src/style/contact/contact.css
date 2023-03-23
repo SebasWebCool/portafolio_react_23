@@ -1,0 +1,126 @@
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px; 
+}
+.contact h3{
+    font-size: 40px;
+    text-align: center;
+}
+.contact_div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.contact_div_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact_div_social_a{
+    background-color: var(--four-color);
+    width: 300px;
+    padding: 15px;
+}
+.contact_div_social_a h5,p,a{
+    margin: 0;
+    text-decoration: none;
+}
+.contact_div_social_a [type]{
+    font-size: 20px;
+    text-align: center;
+}
+.contact_div_social_a h5{
+    font-size: 18px;
+    padding-top: 17px;
+}
+.contact_div_social_a p{
+    font-size: 14px;
+    font-weight: 100;
+    padding-bottom: 17px;
+}
+.contact_div_social_a a{
+    color: var(--thiry-color);
+}
+/* Form */
+.contact_form{
+    width: 100%;
+}
+
+.contact_div_form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact_div_form h4{
+    font-size: 22px;
+}
+
+.contact_form-div{
+    position: relative;
+    margin-bottom: 2rem;
+    height: 4rem;
+}
+.contact_form-tag {
+    position: absolute;
+    top: -0.75rem;
+    left: 1.25rem;
+    /* font-size: var(--smaller-font-size); */
+    padding: 0.25rem;
+    background-color: #000000;
+    z-index: 10;
+}
+.contact_form-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--four-color);
+    background: none;
+    color: white;
+    outline: none;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    z-index: 1;
+}
+.contact_form-div {
+    position: relative;
+    margin-bottom: 2rem;
+    height: 4rem;
+}
+.btn {
+    background-color: var(--four-color);
+    border: none;
+    margin-top: 120px;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.a{
+    height: 200px;
+}
+@media screen and (max-width:760px) {
+    .contact_div_social_a{
+        width: 215px;
+    }
+}
+@media screen and (max-width:680px) {
+    .contact_div_social_a{
+        width: 280px;
+    }
+    .contact_div{
+        flex-direction: column;
+    }
+}

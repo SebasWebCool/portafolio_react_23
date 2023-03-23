@@ -1,0 +1,79 @@
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills h3{
+    font-size: 40px;
+}
+.skills_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.skill_div_cont{
+    background-color: var(--thiry-color);
+    width: 30vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill_div_cont h3{
+    text-align: center;
+    font-size: medium;
+    text-align: center;
+}
+.skill_div_cont_ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10px;
+}
+.skill_div_cont_ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+.skill_div_cont_ul li span{
+    font-size: 10px;
+    text-align: center;
+}
+.skill_div_cont_ul li h4{
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+}
+.skill_div_cont_img{
+    background-color: var(--thiry-color);
+    width: 30vw;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skill_div_cont_img img{
+    width: 94px;
+    padding: 10px;
+    object-fit: contain;
+}
+@media screen and (max-width:700px) {
+    .skills_div{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .skill_div_cont{
+        width: 55vw;
+    }
+    .skill_div_cont_img{
+        width: 55vw;
+    }
+}

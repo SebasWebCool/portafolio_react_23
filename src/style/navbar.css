@@ -1,0 +1,14 @@
+.nav_ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    position: fixed;
+    gap: 25px;
+    left: calc(50vw - 270px/2);
+    background-color: var(--thiry-color);
+    z-index: 99999;
+}
+.nav_ul li {
+    padding: 3px;
+}
