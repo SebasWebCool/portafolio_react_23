@@ -3,7 +3,7 @@ import '../../style/sidebar.css'
 const Sidebar = () => {
   return (
     <aside>
-        <ul className='aside_ul'>
+        <ul className='aside_ul' data-aos-duration="800" data-aos="zoom-out-right">
                 <li className='aside_ul_li hvr-buzz-out hvr-radial-in'>
                     <a href="https://wa.me/584120169581"><box-icon type='logo' name='whatsapp'></box-icon></a>
                 </li>

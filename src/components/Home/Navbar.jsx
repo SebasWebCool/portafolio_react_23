@@ -4,7 +4,7 @@ import '../../style/navbar.css'
 const Navbar = () => {
   return (
     <nav className='nav'>
-            <ul className='nav_ul'>
+            <ul className='nav_ul' data-aos-duration="800" data-aos="zoom-in">
                 <li className='nav_ul_li hvr-hang hvr-radial-out'>
                     <a href="#home"><box-icon type='solid' name='home'></box-icon></a>
                 </li>

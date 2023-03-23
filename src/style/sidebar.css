@@ -7,7 +7,7 @@
     gap: 40px;
     position: fixed;
     left: 20px;
-    top: 25vh;
+    top: calc(50vh - 364px/2);
     background-color: rgb(61, 193, 211);
     border: white 2px solid;
     z-index: 9999;

@@ -3,11 +3,11 @@ import '../../style/skills/skills.css'
 
 const Skills = () => {
     return (
-        <section className='skills'>
-            <h3>My Skills</h3>
+        <section className='skills' id='skills'>
+            <h3 data-aos="fade-up">My Skills</h3>
 
             <div className='skills_div'>
-                <div className='skill_div_cont hvr-outline-in'>
+                <div className='skill_div_cont hvr-outline-in' data-aos="fade-down-right">
                     <h3>Front End</h3>
                     <ul className='skill_div_cont_ul'>
                         <li>
@@ -16,7 +16,7 @@ const Skills = () => {
                         </li>
                         <li>
                              <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
-                             Git</h4> 
+                             GitHub</h4> 
                             <span>Advanced</span>
                         </li>
                         <li>
@@ -42,7 +42,7 @@ const Skills = () => {
                 </div>
 
 
-                <div className='skill_div_cont hvr-outline-in'>
+                <div className='skill_div_cont hvr-outline-in' data-aos="fade-down-left">
                     <h3>Back End</h3>
                     <ul className='skill_div_cont_ul'>
                         <li>
@@ -78,8 +78,8 @@ const Skills = () => {
                     </ul>
                 </div>
 
-                <div className='skill_div_cont_img hvr-outline-in'>
-                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737596/Portafolio%20Img/javascript_slwiky.png" alt="Javascript logo" />
+                <div className='skill_div_cont_img hvr-outline-in' data-aos="flip-down">
+                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679592813/Portafolio%20Img/JavaScript-Logo_np87fe.png" alt="Javascript logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510421/Portafolio%20Img/logo_react-removebg-preview_zioqml.png" alt="react logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510079/Portafolio%20Img/nodeJs_logo-removebg-preview_ypkx3c.png" alt="node JS logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737600/Portafolio%20Img/html_t9rcrd.png" alt="html logo" />

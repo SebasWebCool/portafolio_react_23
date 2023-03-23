@@ -3,7 +3,7 @@ import '../style/footer/footer.css'
 
 const Footer = () => {
     return (
-        <footer className='footer'>
+        <footer className='footer' data-aos="fade-left" data-aos-duration="800" >
             <h3>Sebastian Diaz</h3>
             <div className='footer_nav'>
                 <a href="#home">Home</a>

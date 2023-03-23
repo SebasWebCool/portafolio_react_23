@@ -4,15 +4,15 @@ import '../../style/projects/projects.css'
 const Projects = () => {
   return (
     <section className='projects' id='projects'>
-      <h3>Projects</h3>
+      <h3 data-aos="fade-down">Projects</h3>
       <div className='pro-cont'>
-                <div className='pro-cont-title '>
+                <div className='pro-cont-title' data-aos="zoom-in-down">
                     <h4>Wobble</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
                             <div className="pro-cont-description">
                                 <p>
-                                    Similar to google. Search for web page links. Search and display images, videos and news. You can switch to dark mode. {'(React, React-Redux, RapidApi, JS, Tailwind)'}
+                                    Similar to google. Search for web page links. Search and display images, videos and news. You can switch it to dark mode. {'(React, React-Redux, RapidApi, JS, Tailwind)'}
                                 </p>
                                 <span>Description <box-icon color='#ffffff' name='down-arrow-alt'></box-icon></span>
                             </div>
@@ -23,13 +23,13 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='pro-cont-title '>
+                <div className='pro-cont-title' data-aos="zoom-in-down">
                     <h4>Pokedex</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
                             <div className="pro-cont-description">
                                 <p>
-                                    Show all pokemon. You can search for them by type and by name. It also shows the data of each pokemon. {'(React, React-Redux, React-Router, Res Api, JS, CSS)'}
+                                    Show all pokemon. You can search them by type and by name. It also shows the data of each pokemon. {'(React, React-Redux, React-Router, Res Api, JS, CSS)'}
                                 </p>
                                 <span>Description <box-icon color='#ffffff' name='down-arrow-alt'></box-icon></span>
                             </div>
@@ -40,7 +40,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='pro-cont-title '>
+                <div className='pro-cont-title' data-aos="zoom-in-down">
                     <h4>Users CRUD</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
@@ -58,14 +58,14 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className='pro-cont-title '>
+                <div className='pro-cont-title' data-aos="zoom-in-down">
                     <h4>Rick and Morty</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
                             <div className="pro-cont-description" >
                                 <p>
                                     Search the characters of each planet. Show the data
-                                    of the characters how many chapters appear and if they are
+                                    of the characters how many chapters they appear and if they are
                                     alive or dead. {'React, React-Redux, Res Api, JS, CSS, Html)'}
                                 </p>
                                 <span>Description <box-icon color='#ffffff' name='down-arrow-alt'></box-icon></span>
@@ -78,13 +78,13 @@ const Projects = () => {
                 </div>
 
 
-                <div className='pro-cont-title '>
+                <div className='pro-cont-title' data-aos="zoom-in-down">
                     <h4>Quote Box</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
                             <div className="pro-cont-description">
                                 <p>
-                                    Appears quotas of some important person, every time you click the button or reloads the page change the quota and the color.{'(CSS, Html, React, Rest Api)'}
+                                    Shows quotas of some important person, every time you click the button or reload the page changes the quota and the color.{'(CSS, Html, React, Rest Api)'}
                                 </p>
                                 <span>Description <box-icon color='#ffffff' name='down-arrow-alt'></box-icon></span>
                             </div>
@@ -95,13 +95,13 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className='pro-cont-title '>
+                <div className='pro-cont-title' data-aos="zoom-in-down">
                     <h4>Weather App</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
                             <div className="pro-cont-description" >
                                 <p>
-                                    Show the weather of your location. Change the temperature from Celsius to Fareheit. {'(CSS, Html, React, Rest Api)'}
+                                    Shows the weather of your location. Change the temperature from Celsius to Farenheit. {'(CSS, Html, React, Rest Api)'}
                                 </p>
                                 <span>Description <box-icon color='#ffffff' name='down-arrow-alt'></box-icon></span>
                             </div>

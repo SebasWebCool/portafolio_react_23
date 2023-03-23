@@ -4,12 +4,12 @@ import '../style/about.css'
 const AboutMe = () => {
   return (
     <section id='about_me'>
-            <h3 className='about_text__title'>About Me</h3>
+            <h3 className='about_text__title' data-aos="fade-down">About Me</h3>
       <div className="about_cont_inf">
-          <div className='about_img float'>
+          <div className='about_img float' data-aos="fade-right">
             <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679503665/yo2__2_-removebg-preview_fq7kga.png" alt="" />
           </div>
-          <div className="about_text float">
+          <div className="about_text float" data-aos="fade-left">
             <p>Active, dynamic, with very good analytical skills. I'm a Full Stack developer ready to use my skills and knowledge to add value to the projects and objectives of the company. <br />
 
               <br />
