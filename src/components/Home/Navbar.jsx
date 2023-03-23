@@ -3,16 +3,16 @@ import '../../style/navbar.css'
 
 const Navbar = () => {
 
-    let scrollY = window.scrollY
-    window.onscroll = function () {
-        let actualScroll = window.scrollY
-        if (scrollY >= actualScroll) {
-            document.getElementById('navbar').style.top = '-50px'
-        } else {
-            document.getElementById('navbar').style.top = '0'
-        }
-        scrollY = actualScroll
-    }
+    // let scrollY = window.scrollY
+    // window.onscroll = function () {
+    //     let actualScroll = window.scrollY
+    //     if (scrollY >= actualScroll) {
+    //         document.getElementById('navbar').style.top = '-50px'
+    //     } else {
+    //         document.getElementById('navbar').style.top = '0'
+    //     }
+    //     scrollY = actualScroll
+    // }
 
 
   return (
