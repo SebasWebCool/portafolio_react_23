@@ -5,8 +5,8 @@ const Header = () => {
         <header>
             <div className='header_div'>
                 <span>SD</span>
-
-                <button className=' white hvr-buzz-out'><box-icon name='moon'></box-icon></button>
+                <span>.</span>
+                {/* <button className=' white hvr-buzz-out'><box-icon name='moon'></box-icon></button> */}
             </div>
         </header>
     )
