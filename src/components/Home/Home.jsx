@@ -17,7 +17,7 @@ const Home = () => {
       </div>
 
       <div className='home_btn '>
-          <a className='hvr-bob hvr-sweep-to-bottom'data-aos="fade-right" data-aos-duration="1500" href="./CV_Sebastian_Diaz_Full-Stack_(2).pdf" download>Download CV</a>
+          <a className='hvr-bob hvr-sweep-to-bottom'data-aos="fade-right" data-aos-duration="1500" href="./CV_Sebastian_Diaz_Full-Stack_(3).pdf" download>Download CV</a>
         
           <a className='hvr-bob hvr-sweep-to-bottom' data-aos="fade-left" data-aos-duration="1500" href="#contact">Contact Me</a>
       </div>
