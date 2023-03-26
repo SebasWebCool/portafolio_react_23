@@ -111,6 +111,11 @@
 .a{
     height: 200px;
 }
+.sumited{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
 @media screen and (max-width:760px) {
     .contact_div_social_a{
         width: 215px;

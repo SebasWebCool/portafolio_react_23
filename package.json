@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "aos": "^2.3.4",
     "boxicons": "^2.1.4",
     "react": "^18.2.0",

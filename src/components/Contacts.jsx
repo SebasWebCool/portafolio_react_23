@@ -1,7 +1,13 @@
 import React from 'react'
 import '../style/contact/contact.css'
+import { useForm, ValidationError } from '@formspree/react';
 
 const Contacts = () => {
+    const [state, handleSubmit] = useForm("mgeblqgj");
+    if (state.succeeded) {
+        return <p className='sumited'>Thanks for text me!</p>;
+    }
+
     return (
         <section className='contact' id='contact'>
             <h3>Contact Me</h3>
@@ -37,26 +43,33 @@ const Contacts = () => {
 
                 <div className='contact_div_form' data-aos="fade-up" data-aos-duration="800">
                     <h4>Tell Me About Your Idea</h4>
-                    <form action="https://formspree.io/f/moqryoll" method="POST" class="contact_form">
-                            <div class="contact_form-div">
-                                <label for="name" class="contact_form-tag">Name</label>
-                                <input type="text" placeholder="Insert your name" class="contact_form-input" name="name"/>
-                            </div>
-
-                            <div class="contact_form-div">
-                                <label for="email" class="contact_form-tag">Mail</label>
-                                <input type="email" placeholder="Insert your email" class="contact_form-input" name="email"/>
-                            </div>
-
-                            <div class="contact_form-div contact_form-area">
-                                <label for="message" class="contact_form-tag">Idea</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your idea" class="contact_form-input a" spellcheck="false"></textarea>
-                                {/* <grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 1;" class="dnXmp"></grammarly-extension><grammarly-extension data-grammarly-shadow-root="true" style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 1;" class="dnXmp"></grammarly-extension> */}
-                            </div>
-
-                            <button type="submit" class="btn hvr-bounce-to-left">Send</button>
-                        </form>
-                   
+                    <form class="contact_form" onSubmit={handleSubmit}>
+                        <div class="contact_form-div">
+                            <label for="name" class="contact_form-tag">Name</label>
+                            <input type="text" placeholder="Insert your name" class="contact_form-input" name="name" />
+                        </div>
+                        <div class="contact_form-div">
+                            <label for="email" htmlFor='email' class="contact_form-tag">Mail</label>
+                            <input type="email" id='email' placeholder="Insert your email" class="contact_form-input" name="email" />
+                        </div>
+                        <ValidationError
+                            prefix="Email"
+                            field="email"
+                            errors={state.errors}
+                        />
+                        <div class="contact_form-div contact_form-area">
+                            <label for="message" class="contact_form-tag">Idea</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your idea" class="contact_form-input a" spellcheck="false"></textarea>
+                        </div>
+                        <ValidationError
+                            prefix="Message"
+                            field="message"
+                            errors={state.errors}
+                        />
+                        <button class="btn hvr-bounce-to-left" type="submit" disabled={state.submitting}>
+                            Submit
+                        </button>
+                    </form>
                 </div>
 
             </div>
