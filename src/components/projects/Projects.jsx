@@ -96,17 +96,17 @@ const Projects = () => {
                 </div>
 
                 <div className='pro-cont-title' data-aos="fade-down">
-                    <h4>Weather App</h4>
+                    <h4>Weather Search</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
                             <div className="pro-cont-description" >
                                 <p>
-                                    Shows the weather of your location. Change the temperature from Celsius to Farenheit. {'(CSS, Html, React, Rest Api)'}
+                                    Shows the weather of any city that you search. Change the temperature from Celsius to Farenheit. Show the weather of your current location {'(CSS, Html, TypeScript, React, Rest Api)'}
                                 </p>
                                 <span>Description <box-icon color='#ffffff' name='down-arrow-alt'></box-icon></span>
                             </div>
-                            <a href="https://harmonious-torte-484966.netlify.app/" target="_blank">
-                                <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737514/Portafolio%20Img/Weather_App_ziqgsr.png" alt="Project 3" />
+                            <a href="https://weather-app-sdr.netlify.app/" target="_blank">
+                                <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679856661/Portafolio%20Img/Weather_Search_wljo70.png" alt="Project 3" />
                             </a>
                         </div>
                     </div>

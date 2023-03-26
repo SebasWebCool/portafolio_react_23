@@ -31,6 +31,11 @@ const Skills = () => {
                         </li>
                         <li>
                              <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
+                             TypeScript</h4> 
+                            <span>Advanced</span>
+                        </li>
+                        <li>
+                             <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
                              Tailwind</h4> 
                             <span>Advanced</span>
                         </li>
@@ -82,6 +87,7 @@ const Skills = () => {
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679592813/Portafolio%20Img/JavaScript-Logo_np87fe.png" alt="Javascript logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510421/Portafolio%20Img/logo_react-removebg-preview_zioqml.png" alt="react logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510079/Portafolio%20Img/nodeJs_logo-removebg-preview_ypkx3c.png" alt="node JS logo" />
+                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679857345/Portafolio%20Img/typescript1-removebg-preview_mardzk.png" alt="typescript logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737600/Portafolio%20Img/html_t9rcrd.png" alt="html logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510079/Portafolio%20Img/logo_github-removebg-preview_z4orwz.png" alt="Github logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510079/Portafolio%20Img/css_logo-removebg-preview_dfsrhf.png" alt="css logo" />
