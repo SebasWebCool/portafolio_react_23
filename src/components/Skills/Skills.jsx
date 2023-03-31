@@ -16,8 +16,8 @@ const Skills = () => {
                         </li>
                         <li>
                              <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
-                             GitHub</h4> 
-                            <span>Advanced</span>
+                             Next</h4> 
+                            <span>Medium</span>
                         </li>
                         <li>
                              <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
@@ -62,7 +62,12 @@ const Skills = () => {
                         </li>
                         <li>
                              <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
-                             Postgres</h4> 
+                             PostgresSQL</h4> 
+                            <span>Advanced</span>
+                        </li>
+                        <li>
+                             <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
+                             GitHub</h4> 
                             <span>Advanced</span>
                         </li>
                         <li>
@@ -73,7 +78,7 @@ const Skills = () => {
                         <li>
                              <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
                              Django</h4> 
-                            <span>Mediun</span>
+                            <span>Medium</span>
                         </li>
                         <li>
                              <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
@@ -88,6 +93,7 @@ const Skills = () => {
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510421/Portafolio%20Img/logo_react-removebg-preview_zioqml.png" alt="react logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510079/Portafolio%20Img/nodeJs_logo-removebg-preview_ypkx3c.png" alt="node JS logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679857345/Portafolio%20Img/typescript1-removebg-preview_mardzk.png" alt="typescript logo" />
+                        <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/nextjs-boilerplate-logo.png" alt="Next logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1661737600/Portafolio%20Img/html_t9rcrd.png" alt="html logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510079/Portafolio%20Img/logo_github-removebg-preview_z4orwz.png" alt="Github logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510079/Portafolio%20Img/css_logo-removebg-preview_dfsrhf.png" alt="css logo" />

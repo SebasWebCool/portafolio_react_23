@@ -86,10 +86,10 @@
     text-align: center;
     z-index: 4;
 }
-.pro-cont-title:nth-child(3) .a-cont .pro-cont-img .pro-cont-description{
+.pro-cont-title:nth-child(4) .a-cont .pro-cont-img .pro-cont-description{
     padding-top: 10px;
 }
-.pro-cont-title:nth-child(3) .a-cont .pro-cont-img .pro-cont-description:hover{
+.pro-cont-title:nth-child(4) .a-cont .pro-cont-img .pro-cont-description:hover{
     transform: translateY(140px);
 }
 .pro-cont-description:hover {

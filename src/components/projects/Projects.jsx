@@ -7,6 +7,22 @@ const Projects = () => {
       <h3 data-aos="zoom-in-down">Projects</h3>
       <div className='pro-cont' >
                 <div className='pro-cont-title' data-aos="fade-down">
+                    <h4>E-Comerce Next Sanity</h4>
+                    <div className="a-cont"  >
+                        <div className="pro-cont-img">
+                            <div className="pro-cont-description">
+                                <p>
+                                Shows all the products for sale and their description. Can add it to the cart. Can change all data so easily with sanity. {'(Next, Sanity, Css, JS)'}
+                                </p>
+                                <span>Description <box-icon color='#ffffff' name='down-arrow-alt'></box-icon></span>
+                            </div>
+                            <a href="https://ecomerce-next-sanity.vercel.app/" target="_blank">
+                                <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1680236193/e-comer_next_sanity_dpe17f.png" alt="Project 6" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className='pro-cont-title' data-aos="fade-down">
                     <h4>Wobble</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
@@ -41,7 +57,7 @@ const Projects = () => {
                 </div>
 
                 <div className='pro-cont-title' data-aos="fade-down">
-                    <h4>Users CRUD</h4>
+                    <h4>Full Stack App Users CRUD</h4>
                     <div className="a-cont"  >
                         <div className="pro-cont-img">
                             <div className="pro-cont-description" >
