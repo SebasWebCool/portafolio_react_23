@@ -43,6 +43,10 @@ const Skills = () => {
                              <h4><box-icon name='check' color='#3dc1d3' ></box-icon> Bootstrap</h4> 
                             <span>Advanced</span>
                         </li>
+                        <li>
+                             <h4><box-icon name='check' color='#3dc1d3' ></box-icon> Angular</h4> 
+                            <span>Advanced</span>
+                        </li>
                     </ul>
                 </div>
 
@@ -85,11 +89,16 @@ const Skills = () => {
                              Sanity</h4> 
                             <span>Advanced</span>
                         </li>
+                        <li>
+                             <h4><box-icon name='check' color='#3dc1d3' ></box-icon> 
+                             PHP</h4> 
+                            <span>Advanced</span>
+                        </li>
                     </ul>
                 </div>
 
                 <div className='skill_div_cont_img hvr-outline-in' data-aos="flip-down">
-                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679592813/Portafolio%20Img/JavaScript-Logo_np87fe.png" alt="Javascript logo" />
+                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1693891408/Portafolio%20Img/angular_icon_zktzql.png" alt="Angular logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510421/Portafolio%20Img/logo_react-removebg-preview_zioqml.png" alt="react logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510079/Portafolio%20Img/nodeJs_logo-removebg-preview_ypkx3c.png" alt="node JS logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679857345/Portafolio%20Img/typescript1-removebg-preview_mardzk.png" alt="typescript logo" />
@@ -100,6 +109,7 @@ const Skills = () => {
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679507824/Portafolio%20Img/logo_python_ip1pr4.png" alt="Python logo" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510079/Portafolio%20Img/bootstrap-removebg-preview_vuam6v.png" alt="bootstrap" />
                         <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1679510494/Portafolio%20Img/logo_tailwind_jx64z2.png" alt="Tailwind CSS" />
+                        <img src="https://res.cloudinary.com/ddict5xw3/image/upload/v1693891509/Portafolio%20Img/PHP-logo.svg_aa3i9j.png" alt="PHP CSS" />
                 </div>
 
             </div>
